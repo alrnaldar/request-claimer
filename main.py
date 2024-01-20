@@ -5,8 +5,8 @@ from config import TOKEN
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
-@dp.message(lambda message: message.text == "цитата")
-async def quote_process(msg:Message):
-    await msg.answer("aaaa")
+
+
+
 if __name__ == "__main__":
-    dp.run_polling(bot) 
+    dp.run_polling(bot)  
